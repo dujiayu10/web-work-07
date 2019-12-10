@@ -1,0 +1,95 @@
+/*
+* @Author: HP
+* @Date:   2019-12-10 15:25:51
+* @Last Modified by:   HP
+* @Last Modified time: 2019-12-10 15:31:11
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li{
+	list-style: none;
+}
+.top{
+	height: 20px;
+	background-color: #ccc;
+}
+.top1{
+	width: 1200px;
+	margin: 0 auto;
+
+}
+.top1 .slide{
+	margin-left:200px;
+	float: left;
+}
+.box .slide{
+	float: left; 
+	width: 1200px;
+	overflow: hidden;
+}
+.text{
+	display:inline-block;
+	color: #f00;
+	width:500px;
+	position: absolute;
+	right:-500px;
+}
+.bigtext{
+	position: relative;
+	width: 900px;
+	height:20px;
+	overflow: hidden;
+}
+.box{
+	width: 1200px;
+	height: 382px;
+	border: 1px solid red;
+	margin: 100px auto;
+	overflow: hidden;
+	position: relative;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.slider{
+	width:8400px;
+	left: -1200px;
+	position: absolute;
+}
+.nav{
+	position: absolute;
+	left:500px;
+	bottom: 20px;
+}
+.nav>li{
+	float:left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align:center;
+}
+.nav .active{
+	background: red;
+}
