@@ -9,7 +9,7 @@ var a=document.getElementsByClassName("text")[0];
 animate2(a,{right:980},function(){});
 setInterval(function(){
 	a.style.right="-500px";
-	animate2(a,{right:980},function(){});},10000);
+	animate2(a,{right:980},function(){});},14000);
 //下一张图片
 function next(){
 	if(!isMoving){
